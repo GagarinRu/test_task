@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=960">
+    <title>Task</title>
+
+    <link href="https://childrenscience.ru/apps/tasks/_framework/libs.min.css" rel="stylesheet" type="text/css">
+    <link href="https://childrenscience.ru/apps/tasks/_framework/style.css" rel="stylesheet" type="text/css">
+
+    <link href="./style.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="https://childrenscience.ru/apps/tasks/_framework/libs.min.js"></script>
+    <script type="text/javascript" src="https://childrenscience.ru/apps/tasks/_framework/index.js"></script>
+
+    <script type="text/javascript">
+        globalVars.currentTask = 1;
+
+        var task = [
+
+            {},
+
+			// step 1 //////////////////////////////////////////////////////////////////
+
+            {
+                "nextStepDelay": 1000,
+                "button": true,
+                "buttonActive": true,
+
+                "test_help": {
+                    "help_message": "R𝜑 - поворот на угол 𝜑, <br>S<sub>l</sub> — отражение относительно прямой l"
+                },
+
+                "test_images":
+                    [
+                        {
+                            "classes": "task_description",
+                            "value": "Задача"
+                        },
+                        {
+                            "classes": "step-description",
+                            "value": "Расставьте карточки в таком порядке, чтобы точка «12 часов» под действием указанных преобразований циферблата вернулась на свое место!"
+                        },
+
+
+                        {
+                            "classes": "_image1",
+                            "value": ""
+                        }
+                    ],
+
+                "test_sortable":
+                    [
+                        {
+                            "axis": "x",
+
+                            "items":[
+                                // options
+                                {
+
+                                },
+
+                                // five items, content made with css
+                                {},
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
+                        }
+                    ]
+            },
+            
+            // step 2 //////////////////////////////////////////////////////////////////
+            
+            {
+                "nextStepDelay": 800,
+                "button": true,
+
+                "test_help": {
+                    "help_message": "В композиции перестановки совершаются, начиная с правой"
+                },
+
+                "test_images":
+                    [
+                        {
+                            "classes": "task_description",
+                            "value": "Задача"
+                        },
+
+                        {
+                            "classes": "step-description",
+                            "value": "Найдите композиции перестановок:"
+                        },
+
+                        {
+                            "classes": "__image1",
+                            "value": "<img src='img/svg22-01.svg' width='446' height='58' alt=''>"
+                        },
+                        {
+                            "classes": "__image2",
+                            "value": "<img src='img/svg22-02.svg' width='782' height='79' alt=''>"
+                        }
+                    ],
+
+                "test_drag_n_drop": {
+                    "emptyCheck": true,
+                    "stackMode": true,
+
+                    "draggables": [
+                        {},
+                        {"value": "1"},
+                        {"value": "2"},
+                        {"value": "3"},
+                        {"value": "4"},
+                        {"value": "5"},
+                        {"value": "6"}
+                    ],
+
+                    "droppables": [
+                        {},
+                        {"values": "3"},
+                        {"values": "4"},
+                        {"values": "5"},
+                        {"values": "6"},
+                        {"values": "1"},
+                        {"values": "2"},
+
+                        {"values": "3"},
+                        {"values": "4"},
+                        {"values": "5"},
+                        {"values": "6"},
+                        {"values": "1"},
+                        {"values": "2"},
+
+
+                    ]
+                }
+
+            },
+        ];
+    </script>
+</head>
+<body>
+</body>
+</html>

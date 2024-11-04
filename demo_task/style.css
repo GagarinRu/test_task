@@ -1,0 +1,163 @@
+.help-message {
+    width: 484px;
+    max-width: 484px;
+}
+
+/* --- step 1 image--- */
+
+#field[data-task="1"] ._image1 {
+    top: 166px;
+    left: 30px;
+
+    width: 140px;
+    height: 200px;
+
+    background-size: 126px auto;
+    background-repeat: no-repeat;
+    background-position: center 3px;
+    background-image: url(./img/icons-06.svg);
+}
+
+
+/* --- step 1 sortable --- */
+
+#field[data-task="1"] #sortableblock0 {
+    top: 166px;
+    left: 174px;
+}
+
+#field[data-task="1"] .sortable {
+    width: 140px;
+    height: 200px;
+    margin: 0 6px;
+
+    background-size: 126px auto;
+    background-repeat: no-repeat;
+    background-position: center 24px;
+}
+
+#field[data-task="1"] .sortable1 {
+    background-image: url("./img/icons-01.svg");
+}
+#field[data-task="1"] .sortable2 {
+    background-image: url("./img/icons-02.svg");
+}
+#field[data-task="1"] .sortable3 {
+    background-image: url("./img/icons-03.svg");
+}
+#field[data-task="1"] .sortable4 {
+    background-image: url("./img/icons-04.svg");
+}
+#field[data-task="1"] .sortable5 {
+    background-image: url("./img/icons-05.svg");
+}
+
+
+/* --- this task elements --- */
+
+.draggable {
+    width: 34px;
+    height: 48px;
+
+    font-size: 32px;
+    line-height: 48px;
+
+    text-align: center;
+}
+
+.draggables-stack {
+    width: 34px;
+    height: 48px;
+}
+
+.droppable {
+    width: 34px;
+    height: 48px;
+}
+
+
+/* --- this task step 2 --- */
+
+#field[data-task="2"] .__image1 {
+    top: 150px;
+    left: 34px;
+}
+
+#field[data-task="2"] .__image2 {
+    top: 262px;
+    left: 34px;
+}
+
+#field[data-task="2"] .droppable {
+    top: 300px;
+}
+
+
+#field[data-task="2"] #draggable1,
+#field[data-task="2"] #draggable1-stack {
+    top: 102px;
+    left: 744px;
+}
+#field[data-task="2"] #draggable2,
+#field[data-task="2"] #draggable2-stack  {
+    top: 102px;
+    left: 812px;
+}
+#field[data-task="2"] #draggable3,
+#field[data-task="2"] #draggable3-stack  {
+    top: 102px;
+    left: 880px;
+}
+#field[data-task="2"] #draggable4,
+#field[data-task="2"] #draggable4-stack  {
+    top: 168px;
+    left: 744px;
+}
+#field[data-task="2"] #draggable5,
+#field[data-task="2"] #draggable5-stack  {
+    top: 168px;
+    left: 812px;
+}
+#field[data-task="2"] #draggable6,
+#field[data-task="2"] #draggable6-stack  {
+    top: 168px;
+    left: 880px;
+}
+
+#field[data-task="2"] #droppable1 {
+    left: 174px;
+}
+#field[data-task="2"] #droppable2 {
+    left: 212px;
+}
+#field[data-task="2"] #droppable3 {
+    left: 250px;
+}
+#field[data-task="2"] #droppable4 {
+    left: 288px;
+}
+#field[data-task="2"] #droppable5 {
+    left: 326px;
+}
+#field[data-task="2"] #droppable6 {
+    left: 364px;
+}
+
+#field[data-task="2"] #droppable7 {
+    left: 574px;
+}
+#field[data-task="2"] #droppable8 {
+    left: 612px;
+}
+#field[data-task="2"] #droppable9 {
+    left: 650px;
+}
+#field[data-task="2"] #droppable10 {
+    left: 688px;
+}
+#field[data-task="2"] #droppable11 {
+    left: 726px;
+}
+#field[data-task="2"] #droppable12 {
+    left: 764px;
+}
